@@ -1,0 +1,1 @@
+//In the linear search algorithm, we search an element in a given array by Traversing the array from the starting till the ending till the entire element is not found..
