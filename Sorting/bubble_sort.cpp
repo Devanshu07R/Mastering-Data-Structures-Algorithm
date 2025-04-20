@@ -23,8 +23,11 @@ int main(){
     int n = 7;
     int arr[]={5,7,8,4,9,3,10};
 
+    cout<<"Original Array:"<<" ";
+    printArray(arr,n);
 
     bubbleSort(arr,n);
+
+    cout<<"Sorted Array:"<<" ";
     printArray(arr,n);
-    return 0;
 }
