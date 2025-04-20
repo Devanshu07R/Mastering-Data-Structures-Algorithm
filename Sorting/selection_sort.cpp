@@ -25,8 +25,14 @@ int main(){
     int n = 8;
     int arr[]={34,56,78,21,19,8,90,100};
 
-    SelectionSort(arr,n);
+    cout<<"Original Array:"<<" ";
     printArray(arr,n);
+
+    SelectionSort(arr,n);
+    
+    cout<<"Sortyed Array:"<<" ";
+    printArray(arr,n);
+
 
     return 0;
 }
