@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 
-int partition(vector<int> &arr,int start,int end){
+int partition(vector<int> &arr,int start,int end){ //Time complexity: 0(n) and Space complexity: 0(1)
     int idx = start-1, pivot = arr[end];
     for(int j=start; j<end; j++){
         if(arr[j]<=pivot){
