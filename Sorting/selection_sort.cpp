@@ -1,5 +1,6 @@
 //Selection sort..where in the case of the selection sort..we basically separate down the array elements into "sorted"___"unsorted" we finding out the minimum(smallest)element into an array and then swapping it into the first element..as the same process get continous...
-
+//Time complexity: 0(n2)
+//Space complexity: 0(1)
 #include<iostream>
 using namespace std;
 void SelectionSort(int arr[],int n){
