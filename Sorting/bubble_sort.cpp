@@ -1,4 +1,6 @@
 //Bubble sort arranges N elements of an array by placing the largest elements into the proper position....
+// Time complexity: B A W : 0(n), 0(n2) , 0(n2).....
+//Space complexity: 0(1)
 
 #include<iostream>
 using namespace std;
