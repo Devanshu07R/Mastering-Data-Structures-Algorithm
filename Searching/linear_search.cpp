@@ -1,4 +1,10 @@
 //In the linear search algorithm, we search an element in a given array by Traversing the array from the starting till the ending till the entire element is not found..
+//   Case | Time Complexity | Explanation
+/*Case | Time Complexity | Explanation
+Best Case | O(1) | Element found at the first position.
+Average Case | O(n) | Element may be anywhere.
+Worst Case | O(n) | Element is at the end or not present.
+Space | O(1) | No extra space needed.*/
 
 #include<iostream>
 #include<vector>
